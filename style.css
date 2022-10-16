@@ -1,0 +1,292 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    width: 800;
+    float: left;
+    font-family: 'fantasy';
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #4B7BE5;
+    z-index: 1;
+    border-bottom:5px solid #15133C;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #393E46;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 80px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #393E46;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-merah {
+    background: #0F4C75;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #2F8F9D;
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background: #2F8F9D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #0F4C75;
+    text-decoration: none;
+}
+
+a.song-Goodbyes {
+    background: #FF0000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.song-Goodbyes:hover {
+    background: #950101;
+    text-decoration: none;
+}
+
+a.song-Yorushika {
+    background: #FF0000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.song-Yorushika:hover {
+    background: #950101;
+    text-decoration: none;
+}
+
+a.spotify-Yorushika {
+    background: #446A46;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.spotify-Yorushika:hover {
+    background: #82A284;
+    text-decoration: none;
+}
+
+a.spotify-Goodbyes {
+    background: #446A46;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.spotify-Goodbyes:hover {
+    background: #82A284;
+    text-decoration: none;
+}
+
+a.song-Fancy {
+    background: #FF0000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.spotify-Fancy {
+    background: #446A46;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.song-LISA {
+    background: #FF0000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a.spotify-LISA {
+    background: #446A46;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.music-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song-list {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.song-list img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.song-list p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #393E46;
+}
+
+.genre-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.kartu-partner p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #393E46;
+} 
